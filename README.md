@@ -4,7 +4,6 @@ Udito is just a small hobby project. The name means Untitled Dithering Tool and 
 # Features
 ## Colour palettes
 - Pico-8 (both with and without secret colours)
-- Wplace (both free and free+premium)
 ## Colour Models
 - CIEDE2000
 - CIE76
