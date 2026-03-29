@@ -1,10 +1,10 @@
 {
     "palettes": [
         {
-            "group": "Popular colour palettes",
+            "group": "EveryoneDraw (Pico-8)",
             "palettes": [
                 {
-                    "name": "Pico-8 with secret colours",
+                    "name": "32 colours (base + extended)",
                     "id": "p8s",
                     "colours": [
                         "000000","1D2B53","7E2553","5F574F","AB5236","008751",
@@ -16,7 +16,7 @@
                     ]
                 },
                 {
-                    "name": "Pico-8",
+                    "name": "16 colours (base)",
                     "id": "p8",
                     "colours": [
                         "000000","1D2B53","7E2553","008751","AB5236","5F574F",
@@ -116,19 +116,16 @@
         {
             "name": "CIEDE2000 (adjusted ΔE*)",
             "id": "ciede2000",
-            "js_file": "module/colour/ciede2000.js",
             "shader_name": "module/colour/ciede2000.glsl"
         },
         {
             "name": "CIE76 (ΔE* with LAB)",
             "id": "cie76",
-            "js_file": "module/colour/cie76.js",
             "shader_name": "module/colour/cie76.glsl"
         },
         {
             "name": "Euclidian (within sRGB)",
             "id": "euclidian",
-            "js_file": "module/colour/euclidian.js",
             "shader_name": "module/colour/euclidian.glsl"
         }
     ],
