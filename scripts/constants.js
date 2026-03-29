@@ -34,7 +34,7 @@ export const constants = {
     },
     "shaders": {
         "vertex_shader": "vertexShader.glsl",
-        "directory": "https://raw.githubusercontent.com/stefvron/Udito/refs/heads/main/shaders/",
+        "directory": "https://raw.githubusercontent.com/EveryonesToolDrawer/EveryoneDither/refs/heads/main/shaders/",
     },
     "lut": {
         "depth": 256,
@@ -42,7 +42,7 @@ export const constants = {
 };
 
 // Load the configuration file
-const reqConf = await fetch('https://raw.githubusercontent.com/stefvron/Udito/refs/heads/main/config.json');
+const reqConf = await fetch('https://raw.githubusercontent.com/EveryonesToolDrawer/EveryoneDither/refs/heads/main/config.json');
 if(!reqConf.ok) {
     console.error('Failed to load configuration:', reqConf.statusText);
 }
